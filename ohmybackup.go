@@ -15,9 +15,9 @@ var userAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_1 like Mac OS X) AppleWe
 
 // Path and Files
 var pathF = "/root/Downloads/wordlist/files"
-var extensions = "/root/Downloads/wordlist/files/extensions.txt"
-var files = "/root/Downloads/wordlist/files/files.txt"
-var folders = "/root/Downloads/wordlist/files/folders.txt"
+var extensions = "extensions.txt"
+var files = "files.txt"
+var folders = "folders.txt"
 var foundedFolders []string
 
 func getStatusCode(url string) string {
