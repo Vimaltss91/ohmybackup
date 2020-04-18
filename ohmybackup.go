@@ -14,10 +14,10 @@ import (
 var userAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A470a Safari/9537.53"
 
 // Path and Files
-var pathF = "files"
-var extensions = "extensions.txt"
-var files = "files.txt"
-var folders = "folders.txt"
+var pathF = "/root/Downloads/wordlist/files"
+var extensions = "/root/Downloads/wordlist/files/extensions.txt"
+var files = "/root/Downloads/wordlist/files/files.txt"
+var folders = "/root/Downloads/wordlist/files/folders.txt"
 var foundedFolders []string
 
 func getStatusCode(url string) string {
